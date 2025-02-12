@@ -9,12 +9,8 @@
 }
 
 .logo{
-    margin-left: 10px;
-    transition: transform 0.3s ease;
-}
-
-.logo:hover{
-    transform: scale(1.05);
+    width: 414px;
+    height: 252px;
 }
 
 .title{
@@ -49,14 +45,13 @@
 }
 
 #menu {
+    margin-top: 120px;
     font-family: 'Inknut Antiqua';
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-    line-height: 124px;
     text-align: center;
     color: #FFFFFF;
-    padding-bottom: 20%;
     height: 359px;
     background: #FF6F61;
     mix-blend-mode: normal;
@@ -65,14 +60,39 @@
     align-items: center;
     justify-content: center;
     transition: background-color 0.5s, transform 0.8s, padding-bottom 0.8s, font-size 0.8s;
-    width: 100%; 
+    width: 100%;
     overflow: hidden; 
-    border-radius: 150%;
-    clip-path: inset(0 0 50% 0); 
+    height: 12vw; 
+    border-radius: 50vw 50vw 0 0; 
 }
 
 #menu:hover{
-    transform: scale(130%) ;
+    transform: scale(130%);
     padding-bottom: 410px;
-    font-size: 70px;
+    font-size: 60px;
+}
+
+.label{
+    margin-top: 52px;
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#category{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
 }
