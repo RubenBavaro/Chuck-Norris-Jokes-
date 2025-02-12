@@ -1,0 +1,78 @@
+#hero{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.logo{
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.title{
+    top: 9px;
+    font-family: 'Inknut Antiqua', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 101px;
+    text-align: center;
+    color: #000000;
+}
+
+.linea{
+    border: 2.5px solid #000000;
+    margin-top: -20px;
+}
+
+.rules{
+    margin-top: 10px;
+    font-family: 'Irish Grover', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#menu-wrapper {
+    margin-top: auto;
+    text-align: center;
+}
+
+#menu {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 124px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20%;
+    height: 359px;
+    background: #FF6F61;
+    mix-blend-mode: normal;
+    border: 10px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s, transform 0.8s, padding-bottom 0.8s, font-size 0.8s;
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 150%;
+    clip-path: inset(0 0 50% 0); 
+}
+
+#menu:hover{
+    transform: scale(130%) ;
+    padding-bottom: 410px;
+    font-size: 70px;
+}
