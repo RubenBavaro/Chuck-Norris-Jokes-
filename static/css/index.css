@@ -34,7 +34,7 @@
     font-family: 'Irish Grover', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 19px;
     color: #000000;
 }
@@ -73,12 +73,11 @@
 }
 
 .label{
-    margin-top: 52px;
     font-family: 'Inknut Antiqua';
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
-    line-height: 49px;
+    font-size: 17px;
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -86,7 +85,7 @@
 }
 
 #category{
-    font-family: 'Inknut Antiqua';
+    font-family: 'Inknut Antiqua', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
@@ -95,4 +94,52 @@
     align-items: center;
     text-align: center;
     color: #000000;
+    padding: 12px 24px; 
+    border-radius: 12px; 
+    background-color: #00BFA3; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    margin-left: 12px;
+}
+
+#category:hover{
+    background-color: #008370; 
+}
+
+#start {
+    padding: 12px 24px; 
+    border-radius: 12px; 
+    background-color: #00BFA3; 
+    color: white; 
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 32px;
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 52px;
+    height: 80px;
+}
+
+#start:hover {
+    background-color: #008370; 
+}
+
+.select-container {
+    margin-top: 52px;
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+#Joke{
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF0000;
+    margin-top: 10px;
 }
