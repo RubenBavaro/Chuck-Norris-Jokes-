@@ -10,7 +10,7 @@
 
 .logo{
     width: 414px;
-    height: 252px;
+    max-width: 100%;
 }
 
 .title{
@@ -142,4 +142,24 @@
     text-align: center;
     color: #FF0000;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 642px) {
+    #category {
+        font-family: 'Inknut Antiqua', serif;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 49px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        padding: 12px 5px;
+        border-radius: 12px;
+        background-color: #00BFA3;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 12px;
+    }
 }
