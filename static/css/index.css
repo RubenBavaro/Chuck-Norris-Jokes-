@@ -1,4 +1,4 @@
-#hero{
+#hero {
     width: 100vw;
     min-height: 100vh;
     background-image: url(../img/back.png);
@@ -8,12 +8,12 @@
     overflow-y: auto;
 }
 
-.logo{
+.logo {
     width: 414px;
     max-width: 100%;
 }
 
-.title{
+.title {
     top: 9px;
     font-family: 'Inknut Antiqua', serif;
     font-style: normal;
@@ -24,12 +24,12 @@
     color: #000000;
 }
 
-.linea{
+.linea {
     border: 2.5px solid #000000;
     margin-top: -20px;
 }
 
-.rules{
+.rules {
     margin-top: 10px;
     font-family: 'Irish Grover', serif;
     font-style: normal;
@@ -61,18 +61,18 @@
     justify-content: center;
     transition: background-color 0.5s, transform 0.8s, padding-bottom 0.8s, font-size 0.8s;
     width: 100%;
-    overflow: hidden; 
-    height: 12vw; 
-    border-radius: 50vw 50vw 0 0; 
+    overflow: hidden;
+    height: 12vw;
+    border-radius: 50vw 50vw 0 0;
 }
 
-#menu:hover{
+#menu:hover {
     transform: scale(130%);
     padding-bottom: 410px;
     font-size: 60px;
 }
 
-.label{
+.label {
     font-family: 'Inknut Antiqua';
     font-style: normal;
     font-weight: 700;
@@ -84,7 +84,7 @@
     color: #000000;
 }
 
-#category{
+#category {
     font-family: 'Inknut Antiqua', serif;
     font-style: normal;
     font-weight: 700;
@@ -94,28 +94,28 @@
     align-items: center;
     text-align: center;
     color: #000000;
-    padding: 12px 24px; 
-    border-radius: 12px; 
-    background-color: #00BFA3; 
-    border: none; 
-    cursor: pointer; 
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: #00BFA3;
+    border: none;
+    cursor: pointer;
     transition: background-color 0.3s ease;
     margin-left: 12px;
 }
 
-#category:hover{
-    background-color: #008370; 
+#category:hover {
+    background-color: #008370;
 }
 
 #start {
-    padding: 12px 24px; 
-    border-radius: 12px; 
-    background-color: #00BFA3; 
-    color: white; 
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: #00BFA3;
+    color: white;
     font-family: 'Inknut Antiqua', serif;
     font-size: 32px;
-    border: none; 
-    cursor: pointer; 
+    border: none;
+    cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%;
     margin-top: 52px;
@@ -123,17 +123,17 @@
 }
 
 #start:hover {
-    background-color: #008370; 
+    background-color: #008370;
 }
 
 .select-container {
     margin-top: 52px;
     display: flex;
-    align-items: center; 
-    gap: 15px; 
+    align-items: center;
+    gap: 15px;
 }
 
-#Joke{
+#Joke {
     font-family: 'Irish Grover';
     font-style: normal;
     font-weight: 400;
@@ -144,7 +144,7 @@
     margin-top: 10px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 642px) {
+@media screen and (max-width: 642px) {
     #category {
         font-family: 'Inknut Antiqua', serif;
         font-weight: 700;
@@ -154,12 +154,26 @@
         align-items: center;
         text-align: center;
         color: #000000;
-        padding: 12px 5px;
+        padding: 0px 0px;
         border-radius: 12px;
         background-color: #00BFA3;
         border: none;
         cursor: pointer;
         transition: background-color 0.3s ease;
-        margin-left: 12px;
+        margin-left: -8px;
+        width: 100%;
+    }
+
+    .label {
+        font-family: 'Inknut Antiqua';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        margin-left: -10px;
     }
 }
